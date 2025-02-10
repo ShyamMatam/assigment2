@@ -1,0 +1,27 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8fafc;
+  color: cornflowerblue;
+}
+
+.app {
+  display: flex;
+  /* Changed from grid to flex */
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  margin-left: 280px;
+  /* Creates space for fixed sidebar */
+  width: calc(100% - 280px);
+  /* Ensures content width is correct */
+  min-height: 100vh;
+}

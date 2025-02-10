@@ -1,0 +1,46 @@
+.upload-section {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border: 2px dashed #e2e8f0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.documents-list {
+    margin: 1.5rem 0;
+}
+
+.document-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.document-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.document-actions a,
+.document-actions button {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.document-actions a {
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+}
+
+.document-actions button {
+    background: #ef4444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
